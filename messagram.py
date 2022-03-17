@@ -2,6 +2,16 @@ import os, sys, time, socket
 
 from .messagram import *
 
+
+class Json_Handle:
+    """Verify if string is json or not."""
+    def verify_json_data(data):
+         if   isinstance(test_string,str):
+            return False
+         elif isinstance(test_string,dict):
+            return True
+
+
 class Buffer:
   global data
   global cmd
